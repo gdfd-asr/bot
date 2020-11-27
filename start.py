@@ -23,7 +23,7 @@ client = TelegramClient('Bote',api_id, api_hash)
 client.start()
 client.disconnect()
 if os.path.exists('Bote.session-journal'):
-    print('Error')
+	print('Error')
 else:
-    print('OK')
-    shutil.copyfile("Bote.session", "Bote_2.session")
+	print('OK')
+	shutil.copyfile("Bote.session", "Bote_2.session")
